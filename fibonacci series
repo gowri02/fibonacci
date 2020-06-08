@@ -1,0 +1,11 @@
+#declaring the range of fibonacci series
+a=int(input("enter the range: "))
+#initialising sum
+num1=0
+num2=1 #initialising first two values
+for i in range(a+1):
+   print(n1)
+   numth=num1+num2 #fibonacci recurrece relation: Fn=F(n-1)+F(n-2)
+    #updating the values
+   num1=num2
+   num2=numth
